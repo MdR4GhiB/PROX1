@@ -13,7 +13,6 @@ import Signup from './auth/Signup'
 
 function App() {
   
-
   return (
     <>
       <BrowserRouter>
@@ -28,6 +27,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
+
+          {/* 404 page not found */}
+          {/* <Route path="*" element={<h1>404 Page Not Found</h1>} /> */}
       </BrowserRouter>
     </>
   )

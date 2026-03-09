@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
